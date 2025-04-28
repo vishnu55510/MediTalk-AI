@@ -146,7 +146,7 @@ async def on_message(message: cl.Message):
 
 @cl.on_chat_start
 async def on_chat_start():
-    await cl.Message(content="👋 Welcome to 🧠 Smart Health Navigator!").send()
+    await cl.Message(content="👋 Welcome to 🧠 MediTalk-AI!").send()
 
 # ----------------- Main Entry Point -----------------
 if __name__ == "__main__":
