@@ -1,2 +1,61 @@
-# MediTalk-AI
-MediTalk AI is an intelligent healthcare platform that connects users with their health needs through natural conversation. It helps users store and analyze health data, find hospitals, access medical research, and receive personalized recommendations, all in one seamless experience.
+# MediTalk-AI - README
+
+## Overview
+
+MediTalk-AI is an advanced AI-powered health assistant application that helps users manage their health-related queries. This application integrates multiple agents, including health data collection, medical history retrieval, fitness planning, and hospital search, among others. It leverages cutting-edge AI technologies like OpenAI GPT and plugins for accessing health-related data, such as Pinecone, MySQL, PubMed, and various location and web search APIs.
+
+The goal of MediTalk-AI is to provide users with a comprehensive platform to track health information, receive personalized reports, get fitness and diet advice, and find relevant medical research. It also includes intelligent agents that work together to facilitate user requests, offering a seamless and interactive experience.
+
+---
+
+## Features
+
+1. **Health Data Collection**: Collects and stores user health information in both MySQL and Pinecone.
+2. **Medical History Retrieval**: Fetches detailed reports from the health database, including conditions, treatments, medications, and surgeries.
+3. **Personalized Health Report Generation**: Generates detailed reports based on user health data, integrating information from MySQL and Pinecone.
+4. **Hospital Search**: Allows users to search for hospitals based on their location using a location-based plugin.
+5. **Diet Planning**: Provides users with customized daily meal plans based on their dietary needs.
+6. **Fitness Planning**: Offers personalized workout plans based on fitness goals.
+7. **Medical Research Search**: Helps users search for relevant medical research from PubMed.
+8. **Multi-Agent System**: Uses a coordination agent (TriageAgent) that interacts with various specialized agents to fulfill user requests.
+9. **AI-Powered Conversation**: Powered by OpenAI GPT-4 for conversational AI capabilities.
+
+---
+
+## Tech Stack
+
+- **Backend**: 
+    - **Python** (for AI agents and plugins)
+    - **OpenAI GPT-4** (for conversational AI)
+    - **Semantic Kernel** (for agent orchestration)
+    - **Pinecone** (for vector-based search and storage)
+    - **MySQL** (for structured data storage)
+    - **Chainlit** (for interactive UI and user messaging)
+    - **dotenv** (for loading environment variables)
+
+- **Plugins**:
+    - **HealthDataPlugin**: Collects and stores health data.
+    - **PineconeSearchPlugin**: Searches user data in the Pinecone vector store.
+    - **MySQLConnectorPlugin**: Retrieves data from MySQL database.
+    - **WebSearchEnginePlugin**: Performs web searches to find health-related information.
+    - **LocationAgentPlugin**: Helps with location-based services (e.g., finding hospitals).
+    - **PubMedPlugin**: Searches for medical research on PubMed.
+    - **SerpApiLocationSearchPlugin**: Utilizes SerpApi for location-based search, specifically for hospitals.
+
+---
+
+## Setup & Installation
+
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- Python 3.8 or higher
+- `pip` (Python package installer)
+- Virtual environment (optional but recommended)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/meditalk-ai.git
+cd meditalk-ai
