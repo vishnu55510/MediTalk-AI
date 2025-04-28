@@ -44,6 +44,23 @@ The goal of MediTalk-AI is to provide users with a comprehensive platform to tra
 
 ---
 
+## Usage
+
+Upon starting the application, you will be greeted with an interactive AI chatbot interface. You can enter various health-related queries, and the system will process the request using the following agents:
+
+1. **Health Data Collector**: Collects and stores user health data in MySQL and Pinecone.
+2. **Health Report Generator**: Fetches previous medical history and generates a detailed health report, including conditions, treatments, medications, surgeries, and important notes.
+3. **Hospital Search Agent**: Finds hospitals based on user location using the SerpApi Location Search plugin.
+4. **Diet Agent**: Creates personalized daily meal plans based on the user's dietary needs.
+5. **Fitness Agent**: Generates customized workout plans for users based on their fitness goals.
+6. **PubMed Search Agent**: Searches for medical research papers and articles on PubMed to provide users with relevant health information.
+
+The **TriageAgent** coordinates the flow of user queries between agents, ensuring that the appropriate responses are provided. It orchestrates the different agents based on the user's request, ensuring seamless interactions with the system.
+
+---
+
+
+
 ## Setup & Installation
 
 ### Prerequisites
