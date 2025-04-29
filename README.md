@@ -60,15 +60,6 @@ This platform leverages cutting-edge technologies such as **OpenAI GPT-4**, **Se
 
 Once launched, users interact via a conversational interface. The **TriageAgent** coordinates other agents to fulfill user queries:
 
-| Agent                     | Functionality                                                                 |
-|---------------------------|-------------------------------------------------------------------------------|
-| `Health Data Collector`   | Captures and stores user data into MySQL and Pinecone                        |
-| `Health Report Generator` | Produces summaries of past treatments, conditions, and health history        |
-| `Hospital Search Agent`   | Finds nearby hospitals using SerpApi and location plugin                     |
-| `Diet Agent`              | Plans meals based on user dietary needs                                      |
-| `Fitness Agent`           | Generates workout plans aligned to health goals                              |
-| `PubMed Search Agent`     | Searches PubMed for related medical research articles                        |
-
 ---
 
 ## 🖼️ Screenshots
