@@ -60,14 +60,8 @@ Upon starting the application, you will be greeted with an interactive AI chatbo
 The **TriageAgent** coordinates the flow of user queries between agents, ensuring that the appropriate responses are provided. It orchestrates the different agents based on the user's request, ensuring seamless interactions with the system.
 
 ---
-![Screenshot 2025-04-29 170201](https://github.com/user-attachments/assets/cc95170c-e4de-4e16-bfda-38ff90906353)
-![Screenshot 2025-04-29 161941](https://github.com/user-attachments/assets/559e3a96-5718-4a13-b8a4-b545f879d20b)
-![Screenshot 2025-04-29 161909](https://github.com/user-attachments/assets/b3398a39-0178-40d5-83ae-fdfe4b56c82e)
-![Screenshot 2025-04-29 160540](https://github.com/user-attachments/assets/56ac9d52-b5b8-4e5e-b3a0-76503dbdf311)
-![Screenshot 2025-04-29 153428](https://github.com/user-attachments/assets/970b3550-13a5-485c-b732-ce6105798f4e)
-![Screenshot 2025-04-29 140253](https://github.com/user-attachments/assets/bdcaacea-3bea-422b-970f-7e4bd231e1e6)
-![Screenshot 2025-04-29 135441](https://github.com/user-attachments/assets/be93f74b-41dc-431e-a644-425a82035c61)
-![Screenshot 2025-04-29 124202](https://github.com/user-attachments/assets/fea179d0-6009-4088-b36e-bdfe61005f2d)
+![Screenshot 2025-04-29 124202](https://github.com/user-attachments/assets/364c4083-ad73-440e-9974-656310f75b13)
+
 
 
 ## Setup & Installation
