@@ -67,8 +67,10 @@ The **TriageAgent** coordinates the flow of user queries between agents, ensurin
 ![Screenshot 2025-04-29 160540](https://github.com/user-attachments/assets/df4fb2af-fa0f-4d36-a1d3-3e24d9187809)
 ![Screenshot 2025-04-29 153428](https://github.com/user-attachments/assets/683a5d0e-9b35-4cf9-bf99-d9fafe078e82)
 ![Screenshot 2025-04-29 161909](https://github.com/user-attachments/assets/12eb469a-c8c4-4e67-8cbe-75bc79ca9b45)
-![Screenshot 2025-04-29 161941](https://github.com/user-attachments/assets/eea700aa-88a2-4511-8942-98b5ce43d86b)
-![Screenshot 2025-04-29 170201](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d)
+
+user health data is stored in database ![Screenshot 2025-04-29 161941](https://github.com/user-attachments/assets/eea700aa-88a2-4511-8942-98b5ce43d86b)
+
+Agents call log and tool call ![Screenshot 2025-04-29 170201](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d)
 
 
 
