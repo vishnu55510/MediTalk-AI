@@ -75,6 +75,7 @@ Once launched, users interact via a conversational interface. The **TriageAgent*
 | Stored Health Data (MySQL view)    | ![DB](https://github.com/user-attachments/assets/eea700aa-88a2-4511-8942-98b5ce43d86b) |
 | Agent Logs & Tool Calls            | ![Logs](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d) |
 
+
 ---
 ## 🏥 Scenario: A User’s Journey with MediTalk-AI
 
