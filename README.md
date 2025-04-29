@@ -1,93 +1,114 @@
-# MediTalk-AI - README
+# 🧠 MediTalk-AI
 
-## Overview
+## 📘 Overview
 
-MediTalk-AI is an advanced AI-powered health assistant application that helps users manage their health-related queries. This application integrates multiple agents, including health data collection, medical history retrieval, fitness planning, and hospital search, among others. It leverages cutting-edge AI technologies like OpenAI GPT and plugins for accessing health-related data, such as Pinecone, MySQL, PubMed, and various location and web search APIs.
+**MediTalk-AI** is an advanced AI-powered health assistant application that allows users to manage health-related activities through intelligent conversations. It integrates multiple autonomous agents to handle tasks like collecting health data, generating reports, planning fitness and diets, searching for hospitals, and accessing medical research.
 
-The goal of MediTalk-AI is to provide users with a comprehensive platform to track health information, receive personalized reports, get fitness and diet advice, and find relevant medical research. It also includes intelligent agents that work together to facilitate user requests, offering a seamless and interactive experience.
-
----
-
-## Features
-
-1. **Health Data Collection**: Collects and stores user health information in both MySQL and Pinecone.
-2. **Medical History Retrieval**: Fetches detailed reports from the health database, including conditions, treatments, medications, and surgeries.
-3. **Personalized Health Report Generation**: Generates detailed reports based on user health data, integrating information from MySQL and Pinecone.
-4. **Hospital Search**: Allows users to search for hospitals based on their location using a location-based plugin.
-5. **Diet Planning**: Provides users with customized daily meal plans based on their dietary needs.
-6. **Fitness Planning**: Offers personalized workout plans based on fitness goals.
-7. **Medical Research Search**: Helps users search for relevant medical research from PubMed.
-8. **Multi-Agent System**: Uses a coordination agent (TriageAgent) that interacts with various specialized agents to fulfill user requests.
-9. **AI-Powered Conversation**: Powered by OpenAI GPT-4 for conversational AI capabilities.
+This platform leverages cutting-edge technologies such as **OpenAI GPT-4**, **Semantic Kernel**, **MySQL**, **Pinecone**, **Chainlit**, and **PubMed**.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- **Backend**: 
-    - **Python** (for AI agents and plugins)
-    - **OpenAI GPT-4** (for conversational AI)
-    - **Semantic Kernel** (for agent orchestration)
-    - **Pinecone** (for vector-based search and storage)
-    - **MySQL** (for structured data storage)
-    - **Chainlit** (for interactive UI and user messaging)
-    - **dotenv** (for loading environment variables)
-
-- **Plugins**:
-    - **HealthDataPlugin**: Collects and stores health data.
-    - **PineconeSearchPlugin**: Searches user data in the Pinecone vector store.
-    - **MySQLConnectorPlugin**: Retrieves data from MySQL database.
-    - **WebSearchEnginePlugin**: Performs web searches to find health-related information.
-    - **LocationAgentPlugin**: Helps with location-based services (e.g., finding hospitals).
-    - **PubMedPlugin**: Searches for medical research on PubMed.
-    - **SerpApiLocationSearchPlugin**: Utilizes SerpApi for location-based search, specifically for hospitals.
+| Feature                        | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| 🗂️ Health Data Collection      | Stores health info in MySQL and Pinecone                                    |
+| 📄 Medical History Retrieval   | Retrieves conditions, treatments, medications, and surgeries                |
+| 📊 Personalized Reports        | Combines data from MySQL & Pinecone to generate summaries                   |
+| 🏥 Hospital Search             | Finds hospitals based on user location                                      |
+| 🥗 Diet Planning               | Provides daily meal plans tailored to user needs                            |
+| 🏋️ Fitness Planning            | Custom workouts based on goals                                              |
+| 🔍 PubMed Research Search      | Finds medical articles using PubMed                                         |
+| 🤖 Multi-Agent Coordination    | Uses TriageAgent to delegate to specialized agents                          |
+| 💬 Conversational AI           | GPT-4 powered natural interaction                                           |
 
 ---
-- **Archtecture Diagram of Agents**
-![MIcrosoft hackathon acrhitecture diagram drawio](https://github.com/user-attachments/assets/33ad7a4f-eef8-450a-9d6b-69b949a0c002)
 
-## Usage
+## 🧰 Tech Stack
 
-Upon starting the application, you will be greeted with an interactive AI chatbot interface. You can enter various health-related queries, and the system will process the request using the following agents:
+### 💻 Backend
 
-1. **Health Data Collector**: Collects and stores user health data in MySQL and Pinecone.
-2. **Health Report Generator**: Fetches previous medical history and generates a detailed health report, including conditions, treatments, medications, surgeries, and important notes.
-3. **Hospital Search Agent**: Finds hospitals based on user location using the SerpApi Location Search plugin.
-4. **Diet Agent**: Creates personalized daily meal plans based on the user's dietary needs.
-5. **Fitness Agent**: Generates customized workout plans for users based on their fitness goals.
-6. **PubMed Search Agent**: Searches for medical research papers and articles on PubMed to provide users with relevant health information.
+- **Python**
+- **OpenAI GPT-4**
+- **Semantic Kernel**
+- **MySQL**
+- **Pinecone**
+- **Chainlit**
+- **dotenv**
 
-The **TriageAgent** coordinates the flow of user queries between agents, ensuring that the appropriate responses are provided. It orchestrates the different agents based on the user's request, ensuring seamless interactions with the system.
+### 🔌 Plugins
+
+| Plugin                        | Purpose                                                         |
+|------------------------------|-----------------------------------------------------------------|
+| `HealthDataPlugin`           | Collects and stores user health data                           |
+| `PineconeSearchPlugin`       | Vector-based health data search                                |
+| `MySQLConnectorPlugin`       | Retrieves structured data                                      |
+| `WebSearchEnginePlugin`      | Finds health information online                                |
+| `LocationAgentPlugin`        | Helps with hospital/location services                          |
+| `PubMedPlugin`               | Fetches articles from PubMed                                   |
+| `SerpApiLocationSearchPlugin`| Uses SerpApi to search for hospitals                           |
 
 ---
-![Screenshot 2025-04-29 124202](https://github.com/user-attachments/assets/364c4083-ad73-440e-9974-656310f75b13)
-![Screenshot 2025-04-29 135441](https://github.com/user-attachments/assets/65296ebd-7555-469b-b92e-ab41e46e7930)
-![Screenshot 2025-04-29 140253](https://github.com/user-attachments/assets/7e3f714b-9c97-4e92-a246-c0450c0cf7cf)
 
-![Screenshot 2025-04-29 160540](https://github.com/user-attachments/assets/df4fb2af-fa0f-4d36-a1d3-3e24d9187809)
-![Screenshot 2025-04-29 153428](https://github.com/user-attachments/assets/683a5d0e-9b35-4cf9-bf99-d9fafe078e82)
-![Screenshot 2025-04-29 161909](https://github.com/user-attachments/assets/12eb469a-c8c4-4e67-8cbe-75bc79ca9b45)
+## 🧠 Architecture Diagram
 
-user health data is stored in database ![Screenshot 2025-04-29 161941](https://github.com/user-attachments/assets/eea700aa-88a2-4511-8942-98b5ce43d86b)
+![Architecture Diagram](https://github.com/user-attachments/assets/33ad7a4f-eef8-450a-9d6b-69b949a0c002)
 
-Agents call log and tool call ![Screenshot 2025-04-29 170201](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d)
+---
 
+## 🚀 Usage
 
+Once launched, users interact via a conversational interface. The **TriageAgent** coordinates other agents to fulfill user queries:
 
+| Agent                     | Functionality                                                                 |
+|---------------------------|-------------------------------------------------------------------------------|
+| `Health Data Collector`   | Captures and stores user data into MySQL and Pinecone                        |
+| `Health Report Generator` | Produces summaries of past treatments, conditions, and health history        |
+| `Hospital Search Agent`   | Finds nearby hospitals using SerpApi and location plugin                     |
+| `Diet Agent`              | Plans meals based on user dietary needs                                      |
+| `Fitness Agent`           | Generates workout plans aligned to health goals                              |
+| `PubMed Search Agent`     | Searches PubMed for related medical research articles                        |
 
+---
 
-## Setup & Installation
+## 🖼️ Screenshots
 
-### Prerequisites
+| Feature                            | Screenshot |
+|------------------------------------|------------|
+| Chat UI                            | ![UI](https://github.com/user-attachments/assets/364c4083-ad73-440e-9974-656310f75b13) |
+| Generated Health Report            | ![Health Report](https://github.com/user-attachments/assets/65296ebd-7555-469b-b92e-ab41e46e7930) |
+| Fitness and Diet Planning          | ![Fitness](https://github.com/user-attachments/assets/7e3f714b-9c97-4e92-a246-c0450c0cf7cf) |
+| Hospital Search Result             | ![Hospital](https://github.com/user-attachments/assets/df4fb2af-fa0f-4d36-a1d3-3e24d9187809) |
+| PubMed Search Agent                | ![PubMed](https://github.com/user-attachments/assets/683a5d0e-9b35-4cf9-bf99-d9fafe078e82) |
+| Personalized Meal Plan             | ![Diet](https://github.com/user-attachments/assets/12eb469a-c8c4-4e67-8cbe-75bc79ca9b45) |
+| Stored Health Data (MySQL view)    | ![DB](https://github.com/user-attachments/assets/eea700aa-88a2-4511-8942-98b5ce43d86b) |
+| Agent Logs & Tool Calls            | ![Logs](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d) |
 
-Before running the project, ensure you have the following installed:
+---
+
+## ⚙️ Setup & Installation
+
+### 📝 Prerequisites
+
+Ensure the following are installed:
 
 - Python 3.8 or higher
-- `pip` (Python package installer)
-- Virtual environment (optional but recommended)
+- pip (Python package manager)
+- Virtual environment (recommended)
 
-### 1. Clone the Repository
+### 📦 Installation Steps
 
 ```bash
+# Clone the repo
 git clone https://github.com/yourusername/meditalk-ai.git
 cd meditalk-ai
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Add your .env file with necessary API keys and config
+cp .env.example .env
