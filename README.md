@@ -44,6 +44,7 @@ The goal of MediTalk-AI is to provide users with a comprehensive platform to tra
 
 ---
 ![MIcrosoft hackathon acrhitecture diagram drawio](https://github.com/user-attachments/assets/33ad7a4f-eef8-450a-9d6b-69b949a0c002)
+![MIcrosoft hackathon acrhitecture diagram drawio (1)](https://github.com/user-attachments/assets/a9fb88ad-a64d-4ed5-8edb-976574c66a4a)
 
 ## Usage
 
