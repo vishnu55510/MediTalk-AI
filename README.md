@@ -85,8 +85,116 @@ Once launched, users interact via a conversational interface. The **TriageAgent*
 | Agent Logs & Tool Calls            | ![Logs](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d) |
 
 ---
+## 🏥 Scenario: A User’s Journey with MediTalk-AI
 
-## ⚙️ Setup & Installation
+### 👤 Meet Riya, a 32-year-old working professional
+
+Riya recently started experiencing recurring back pain. Being an active individual, she’s worried about her health but also wants to be proactive. She needs:
+- A deeper understanding of her current health issues  
+- A way to track her medical history and conditions  
+- Recommendations for nearby healthcare options  
+- Guidance on nutrition and fitness to alleviate her symptoms
+
+---
+
+### 🔹 Step 1: Riya Opens MediTalk-AI
+
+Riya opens **MediTalk-AI** on her mobile device, and the app presents a friendly AI-powered chatbot interface. She types:
+
+> "Hi, I’ve been having back pain lately. Can you help?"
+
+---
+
+### ⚙️ What Happens Behind the Scenes
+
+The **TriageAgent** immediately processes Riya’s query and triggers the relevant agents to provide her with a personalized response.
+
+| **Agent**                    | **Function**                                                                 |
+|-----------------------------|------------------------------------------------------------------------------|
+| `HealthDataCollectorAgent`  | Collects new symptoms and stores them in MySQL and Pinecone                   |
+| `HealthReportGeneratorAgent`| Retrieves her medical history, including previous treatments, surgeries, and medications |
+| `HospitalSearchAgent`       | Uses Riya's location and searches for nearby hospitals using SerpApi           |
+| `PubMedSearchAgent`         | Retrieves the latest medical research articles on back pain treatment         |
+| `DietAgent`                 | Recommends meal plans rich in anti-inflammatory foods                         |
+| `FitnessAgent`              | Suggests beginner-friendly exercises to help alleviate back pain              |
+
+---
+
+### 🧾 Step 2: Riya Receives Personalized Health Insights
+
+After a brief pause, **MediTalk-AI** presents Riya with a comprehensive response:
+- A summary of her medical history from MySQL and Pinecone, highlighting her past injuries and medications related to back pain  
+- A list of hospitals and clinics specializing in orthopedic care, with options to view their ratings, location, and specialties  
+- A curated list of recent research articles from PubMed detailing the latest advancements in back pain treatments and preventive care  
+- A personalized 7-day anti-inflammatory meal plan based on Riya’s dietary preferences and needs  
+- A customized fitness routine, including stretching exercises, posture correction, and gentle back exercises designed to relieve pain
+
+---
+
+### 💬 Step 3: Riya Continues the Interaction
+
+Riya follows up with another question:
+
+> "Can you help me find the best hospital for back pain treatment?"
+
+The system uses the **HospitalSearchAgent** to show hospitals ranked by their specialization in back pain treatments and proximity to Riya's location. MediTalk-AI lists:
+- **Hospital A**: Specializes in spine surgery and physiotherapy. Ratings: 4.8/5
+- **Hospital B**: Known for its holistic pain management treatments. Ratings: 4.5/5
+- **Hospital C**: Features an in-house orthopedic specialist. Ratings: 4.3/5
+
+Riya can click on any of the hospitals to get further details or directions.
+
+---
+
+### 🔄 Step 4: Riya Asks for Further Details
+
+She decides to learn more about one of the hospitals and types:
+
+> "Tell me more about Hospital A and their spine surgery department."
+
+The system pulls detailed information from the **HospitalSearchAgent**, displaying:
+- A description of the hospital’s facilities  
+- A list of spine surgeons with their qualifications and experience  
+- Patient reviews specific to spine surgeries  
+- Contact details and the option to book an appointment (though appointment booking is not yet automated)
+
+---
+
+### 🔍 Step 5: Searching for Research Articles
+
+Riya is also curious about recent research on back pain treatments, so she asks:
+
+> "What’s the latest research on treating chronic back pain?"
+
+The **PubMedSearchAgent** retrieves several relevant articles:
+- **Article 1**: "Efficacy of Non-Surgical Treatments for Chronic Back Pain"  
+- **Article 2**: "Exploring the Role of Posture in Back Pain Relief"  
+- **Article 3**: "Advancements in Minimally Invasive Spine Surgery"  
+
+Riya can click on any of the articles to get summaries or even full access if available, helping her stay informed.
+
+---
+
+### ✅ Outcome
+
+By the end of the session, Riya has:
+- Gained a detailed understanding of her health, including the possible causes of her back pain  
+- Accessed a comprehensive list of nearby hospitals specializing in orthopedic care  
+- Reviewed the latest evidence-based research on back pain treatments  
+- Received a personalized diet plan and fitness routine to help alleviate her symptoms  
+- Explored useful health resources tailored to her specific condition
+
+---
+
+### 💡 Summary
+
+**MediTalk-AI** empowers users like Riya by providing intelligent, actionable health insights, access to medical resources, and recommendations that promote overall wellness. With its multi-agent system, the platform delivers a seamless, interactive experience that guides users in managing their health proactively. MediTalk-AI can:
+- Collect and store health data  
+- Fetch past medical records  
+- Recommend lifestyle changes like diet and exercise  
+- Find healthcare providers and medical research  
+
+The system orchestrates multiple agents to deliver tailored information and resources, ensuring each user gets the most relevant support for their unique health needs.
 
 ### 📝 Prerequisites
 
