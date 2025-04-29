@@ -67,11 +67,12 @@ Once launched, users interact via a conversational interface. The **TriageAgent*
 | Feature                            | Screenshot |
 |------------------------------------|------------|
 | Chat UI                            | ![UI](https://github.com/user-attachments/assets/364c4083-ad73-440e-9974-656310f75b13) |
-| Generated Health Report            | ![Health Report](https://github.com/user-attachments/assets/65296ebd-7555-469b-b92e-ab41e46e7930) |
+| Hospital Search                    | ![Health Report](https://github.com/user-attachments/assets/65296ebd-7555-469b-b92e-ab41e46e7930) |
 | Fitness and Diet Planning          | ![Fitness](https://github.com/user-attachments/assets/7e3f714b-9c97-4e92-a246-c0450c0cf7cf) |
-| Hospital Search Result             | ![Hospital](https://github.com/user-attachments/assets/df4fb2af-fa0f-4d36-a1d3-3e24d9187809) |
+| Medical History Retrieval          | ![Hospital](https://github.com/user-attachments/assets/df4fb2af-fa0f-4d36-a1d3-3e24d9187809) |
+| Generated Health Report            | ![Screenshot 2025-04-29 201131](https://github.com/user-attachments/assets/c05137d5-2dfa-476a-a18a-02b4e6366463)
 | PubMed Search Agent                | ![PubMed](https://github.com/user-attachments/assets/683a5d0e-9b35-4cf9-bf99-d9fafe078e82) |
-| Personalized Meal Plan             | ![Diet](https://github.com/user-attachments/assets/12eb469a-c8c4-4e67-8cbe-75bc79ca9b45) |
+| Health Data Collection             | ![Diet](https://github.com/user-attachments/assets/12eb469a-c8c4-4e67-8cbe-75bc79ca9b45) |
 | Stored Health Data (MySQL view)    | ![DB](https://github.com/user-attachments/assets/eea700aa-88a2-4511-8942-98b5ce43d86b) |
 | Agent Logs & Tool Calls            | ![Logs](https://github.com/user-attachments/assets/e86491fd-34b1-41f6-b686-f548a944360d) |
 
