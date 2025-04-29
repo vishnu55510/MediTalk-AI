@@ -179,15 +179,23 @@ By the end of the session, Riya has:
 
 ---
 
-### 💡 Summary
+## 🤝 Who Benefits from MediTalk-AI?
 
-**MediTalk-AI** empowers users like Riya by providing intelligent, actionable health insights, access to medical resources, and recommendations that promote overall wellness. With its multi-agent system, the platform delivers a seamless, interactive experience that guides users in managing their health proactively. MediTalk-AI can:
-- Collect and store health data  
-- Fetch past medical records  
-- Recommend lifestyle changes like diet and exercise  
-- Find healthcare providers and medical research  
+### 1. **Individuals with Health Concerns**
+   - **Example**: Riya, who is experiencing back pain, benefits from personalized insights, treatment suggestions, and local healthcare provider recommendations.
 
-The system orchestrates multiple agents to deliver tailored information and resources, ensuring each user gets the most relevant support for their unique health needs.
+### 2. **Patients with Chronic Conditions**
+   - **Example**: Users with conditions like diabetes or hypertension can track health data, receive reports, and access specialized healthcare providers.
+
+### 3. **Health-conscious Individuals**
+   - **Example**: Users seeking fitness or nutrition advice get personalized meal plans, workout routines, and general health guidance.
+
+### 4. **Healthcare Providers**
+   - **Benefit**: Medical professionals can utilize the platform to stay updated on the latest research and offer more informed care options based on patient data and needs.
+
+### 5. **Researchers**
+   - **Benefit**: Researchers can use the PubMed search functionality to find relevant studies and research papers on health topics, enhancing their work and knowledge.
+
 
 ### 📝 Prerequisites
 
