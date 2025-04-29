@@ -43,6 +43,7 @@ The goal of MediTalk-AI is to provide users with a comprehensive platform to tra
     - **SerpApiLocationSearchPlugin**: Utilizes SerpApi for location-based search, specifically for hospitals.
 
 ---
+![MIcrosoft hackathon acrhitecture diagram drawio](https://github.com/user-attachments/assets/33ad7a4f-eef8-450a-9d6b-69b949a0c002)
 
 ## Usage
 
