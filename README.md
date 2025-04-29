@@ -62,6 +62,12 @@ The **TriageAgent** coordinates the flow of user queries between agents, ensurin
 ---
 ![Screenshot 2025-04-29 124202](https://github.com/user-attachments/assets/364c4083-ad73-440e-9974-656310f75b13)
 
+![Screenshot 2025-04-29 161909](https://github.com/user-attachments/assets/12eb469a-c8c4-4e67-8cbe-75bc79ca9b45)
+![Screenshot 2025-04-29 160540](https://github.com/user-attachments/assets/df4fb2af-fa0f-4d36-a1d3-3e24d9187809)
+![Screenshot 2025-04-29 153428](https://github.com/user-attachments/assets/683a5d0e-9b35-4cf9-bf99-d9fafe078e82)
+![Screenshot 2025-04-29 140253](https://github.com/user-attachments/assets/7e3f714b-9c97-4e92-a246-c0450c0cf7cf)
+![Screenshot 2025-04-29 135441](https://github.com/user-attachments/assets/65296ebd-7555-469b-b92e-ab41e46e7930)
+
 
 
 ## Setup & Installation
