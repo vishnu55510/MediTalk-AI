@@ -43,8 +43,8 @@ The goal of MediTalk-AI is to provide users with a comprehensive platform to tra
     - **SerpApiLocationSearchPlugin**: Utilizes SerpApi for location-based search, specifically for hospitals.
 
 ---
+- **Archtecture Diagram of Agents**
 ![MIcrosoft hackathon acrhitecture diagram drawio](https://github.com/user-attachments/assets/33ad7a4f-eef8-450a-9d6b-69b949a0c002)
-![MIcrosoft hackathon acrhitecture diagram drawio (1)](https://github.com/user-attachments/assets/a9fb88ad-a64d-4ed5-8edb-976574c66a4a)
 
 ## Usage
 
@@ -61,6 +61,14 @@ The **TriageAgent** coordinates the flow of user queries between agents, ensurin
 
 ---
 
+![Screenshot 2025-04-29 170201](https://github.com/user-attachments/assets/ee00a9a9-bf19-4f07-84d9-18f584d625d3)
+![Screenshot 2025-04-29 161941](https://github.com/user-attachments/assets/a97b3ec8-314b-4059-a527-e50f4e8252df)
+![Screenshot 2025-04-29 161909](https://github.com/user-attachments/assets/4e522e07-fd2b-4915-8383-a1089b4133ca)
+![Screenshot 2025-04-29 160540](https://github.com/user-attachments/assets/43aa01d4-fae2-49db-9e87-2ddd9c94406d)
+![Screenshot 2025-04-29 153428](https://github.com/user-attachments/assets/7b0669d9-e449-43d2-826e-57e7883f97bc)
+![Screenshot 2025-04-29 140253](https://github.com/user-attachments/assets/c3ccaf50-1a4b-464b-af5a-ae35c5cf5d89)
+![Screenshot 2025-04-29 135441](https://github.com/user-attachments/assets/c7f10e11-fa53-41d2-b644-21432a8058c0)
+![Screenshot 2025-04-29 124202](https://github.com/user-attachments/assets/07874b17-788a-4be4-84fb-d16e0f4e5727)
 
 
 ## Setup & Installation
