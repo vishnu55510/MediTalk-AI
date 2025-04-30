@@ -2,7 +2,13 @@
 
 ## 📘 Overview
 
-**MediTalk-AI** is an advanced AI-powered health assistant application that allows users to manage health-related activities through intelligent conversations. It integrates multiple autonomous agents to handle tasks like collecting health data, generating reports, planning fitness and diets, searching for hospitals, and accessing medical research.
+**MediTalk-AI** is an advanced AI-powered health assistant application that enables users to manage their health through intelligent, conversational interactions. It uses a **multi-agent system** to autonomously perform tasks such as:
+
+- Collecting user health data  
+- Planning personalized fitness and diet plans  
+- Booking appointments with hospitals or doctors  
+- Retrieving medical research papers  
+- Suggesting medications based on medical history  
 
 This platform leverages cutting-edge technologies such as **OpenAI GPT-4**, **Semantic Kernel**, **MySQL**, **Pinecone**, **Chainlit**, and **PubMed**.
 
